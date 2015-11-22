@@ -16,6 +16,7 @@ import java.util.regex.*;
 import org.apache.commons.io.IOUtils;
 import android.app.Application;
 import android.test.ApplicationTestCase;
+import android.widget.EditText;
 
 public class MyActivity extends AppCompatActivity {
 
@@ -47,6 +48,8 @@ public class MyActivity extends AppCompatActivity {
                 handleSendText(intent); // Handle text being sent
             }}
 
+        final EditText edittext = (EditText) findViewById(R.id.edittext);
+        // added after 2nd commit
 
     }
 

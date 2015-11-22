@@ -16,4 +16,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Need to be able to open from the share menue" />
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
 </RelativeLayout>
